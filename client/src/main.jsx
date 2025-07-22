@@ -8,7 +8,8 @@ import {Provider} from "react-redux"
 import axios from "axios"
 import ScrollUp from "./components/scrollBtn/ScrollUp";
 
-axios.defaults.baseURL="https://project-marketplace-kappa.vercel.app/"
+axios.defaults.baseURL = "https://abhinav-s-marketplace-1.onrender.com/"
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
